@@ -1,0 +1,20 @@
+.colorTheme {
+    height: 100vh;
+    transition: .3s ease-in-out;
+}
+
+.darkTheme {
+    @extend .colorTheme;
+    background-color: darkblue;
+    color: white;
+    
+    a {
+        color: yellow;
+    }
+}
+
+.lightTheme {
+    @extend .colorTheme;
+    background-color: white;
+    color: black;
+}
