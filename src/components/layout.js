@@ -21,7 +21,7 @@ const Layout = ({ children }) => {
     <ThemeContext.Consumer>
       {context => (
         <>
-          <div className={context.isDark ? 'darkTheme' : 'lightTheme'}>
+          <div className={context.isLight ? 'lightTheme' : 'darkTheme'}>
 
             <Header siteTitle={data.site.siteMetadata.title} />
             <div
